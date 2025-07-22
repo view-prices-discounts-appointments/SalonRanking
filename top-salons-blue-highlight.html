@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Top 10 Salons in PCMC Pune</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ffe6f0, #e6f2ff);
+      color: #333;
+    }
+
+    header {
+      background: #ff4081;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 25px;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+      position: relative;
+      overflow: hidden;
+      animation: flashIn 0.8s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 15px 40px rgba(64, 156, 255, 0.4);
+    }
+
+    .top-rated {
+      background: #e0f0ff !important;
+      border: 2px solid #3399ff;
+    }
+
+    .rank {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #ff4081;
+      color: white;
+      padding: 10px 20px;
+      font-weight: bold;
+      border-radius: 0 0 0 20px;
+      font-size: 18px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .card-content {
+      padding: 25px;
+    }
+
+    .salon-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .review-count {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 5px;
+    }
+
+    .rating {
+      font-size: 18px;
+      font-weight: 600;
+      color: #ffa500;
+    }
+
+    .stars {
+      font-size: 22px;
+      color: #ffc107;
+    }
+
+    .up-arrow {
+      color: green;
+      font-weight: bold;
+      margin-left: 8px;
+    }
+
+    @keyframes flashIn {
+      from { opacity: 0; transform: scale(0.8); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <header>Top 10 Salons in PCMC (Trending In Pimple Saudagar)</header>
+
+  <div class="container">
+    <div class="card"><div class="rank">#1</div><div class="card-content"><div class="salon-name">Lakme Salon</div><div class="review-count">Reviews: 953</div><div class="rating">Rating: 4.4 <span class="stars">⭐</span></div></div></div>
+    <div class="card"><div class="rank">#2</div><div class="card-content"><div class="salon-name">The Hair Corner (UNISEX SALON)</div><div class="review-count">Reviews: 789</div><div class="rating">Rating: 4.7 <span class="stars">⭐</span></div></div></div>
+    <div class="card"><div class="rank">#3</div><div class="card-content"><div class="salon-name">Habibs Hair & Beauty</div><div class="review-count">Reviews: 550</div><div class="rating">Rating: 4.5 <span class="stars">⭐</span></div></div></div>
+    <div class="card"><div class="rank">#4</div><div class="card-content"><div class="salon-name">Review Unisex Salon</div><div class="review-count">Reviews: 490</div><div class="rating">Rating: 4.4 <span class="stars">⭐</span></div></div></div>
+    <div class="card"><div class="rank">#5</div><div class="card-content"><div class="salon-name">INFINITY UNISEX SALON</div><div class="review-count">Reviews: 420</div><div class="rating">Rating: 4.7 <span class="stars">⭐</span></div></div></div>
+    <div class="card top-rated"><div class="rank">#6</div><div class="card-content"><div class="salon-name">The Kashid's Unisex Salon</div><div class="review-count">Reviews: 410</div><div class="rating">Rating: 4.9 <span class="stars">⭐</span><span class="up-arrow">↑</span></div></div></div>
+    <div class="card"><div class="rank">#7</div><div class="card-content"><div class="salon-name">Dezire Unisex Salon</div><div class="review-count">Reviews: 383</div><div class="rating">Rating: 4.6 <span class="stars">⭐</span></div></div></div>
+    <div class="card top-rated"><div class="rank">#8</div><div class="card-content"><div class="salon-name">SPARKLE BEAUTY ZONE SALON</div><div class="review-count">Reviews: 364</div><div class="rating">Rating: 4.7 <span class="stars">⭐</span><span class="up-arrow">↑</span></div></div></div>
+    <div class="card"><div class="rank">#9</div><div class="card-content"><div class="salon-name">STUDIO11 Salon & Spa</div><div class="review-count">Reviews: 311</div><div class="rating">Rating: 4.6 <span class="stars">⭐</span></div></div></div>
+    <div class="card top-rated"><div class="rank">#10</div><div class="card-content"><div class="salon-name">BeautyZone</div><div class="review-count">Reviews: 305</div><div class="rating">Rating: 4.8 <span class="stars">⭐</span><span class="up-arrow">↑</span></div></div></div>
+  </div>
+</body>
+</html>
